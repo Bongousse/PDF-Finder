@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane prefHeight="42.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="35.0" layoutY="14.0" prefHeight="15.0" prefWidth="41.0" text="Path" />
+            <TextField layoutX="93.0" layoutY="10.0" prefHeight="23.0" prefWidth="416.0" />
+            <Button layoutX="518.0" layoutY="10.0" mnemonicParsing="false" text="Search" />
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <Pane prefHeight="366.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView layoutX="36.0" layoutY="20.0" prefHeight="283.0" prefWidth="528.0" />
+            <TextField layoutX="36.0" layoutY="315.0" prefHeight="23.0" prefWidth="462.0" />
+            <Button layoutX="514.0" layoutY="315.0" mnemonicParsing="false" text="Seach" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
